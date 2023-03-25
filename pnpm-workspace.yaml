@@ -1,0 +1,5 @@
+packages:
+  - "configs/*"
+  - "data/*"
+  - "design-systems/*"
+  - "sites/*"

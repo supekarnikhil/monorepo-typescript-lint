@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "latest",
+    "next-mdx-remote": "^4.4.1",
+    "next-remote-watch": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "components": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "eslint-config-custom": "workspace:*",
+    "eslint": "7.32.0",
+    "tsconfig": "workspace:*",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "typescript": "^4.5.3"
+  }
+}
